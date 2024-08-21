@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"addToDepthGrid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"addToDepthGrid",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

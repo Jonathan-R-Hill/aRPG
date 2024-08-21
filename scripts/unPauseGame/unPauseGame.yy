@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"unPauseGame",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"unPauseGame",
+  "parent":{
+    "name":"UI",
+    "path":"folders/Scripts/UI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
