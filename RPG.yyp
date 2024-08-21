@@ -26,6 +26,7 @@
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Buildings","folderPath":"folders/Sprites/Buildings.yy","name":"Buildings","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemy Units","folderPath":"folders/Sprites/Enemy Units.yy","name":"Enemy Units","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"NPCs","folderPath":"folders/Sprites/NPCs.yy","name":"NPCs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Prologue","folderPath":"folders/Sprites/Prologue.yy","name":"Prologue","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Set Sprites","folderPath":"folders/Sprites/Tile Set Sprites.yy","name":"Tile Set Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -43,7 +44,6 @@
     {"id":{"name":"Building_1","path":"objects/Building_1/Building_1.yy",},},
     {"id":{"name":"Button","path":"objects/Button/Button.yy",},},
     {"id":{"name":"DrawParent","path":"objects/DrawParent/DrawParent.yy",},},
-    {"id":{"name":"gamePause","path":"objects/gamePause/gamePause.yy",},},
     {"id":{"name":"Health_Stam","path":"objects/Health_Stam/Health_Stam.yy",},},
     {"id":{"name":"MasterDraw","path":"objects/MasterDraw/MasterDraw.yy",},},
     {"id":{"name":"o_North_to_StartZone","path":"objects/o_North_to_StartZone/o_North_to_StartZone.yy",},},
@@ -81,8 +81,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"PrologueStart","path":"rooms/PrologueStart/PrologueStart.yy",},},
-    {"roomId":{"name":"Template","path":"rooms/Template/Template.yy",},},
     {"roomId":{"name":"PrologueNorth","path":"rooms/PrologueNorth/PrologueNorth.yy",},},
+    {"roomId":{"name":"Template","path":"rooms/Template/Template.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

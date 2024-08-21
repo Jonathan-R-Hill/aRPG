@@ -3,7 +3,7 @@ if (playerNearby())
 {
 	if (textBoxCreated == noone) {
 		textBoxCreated = instance_create_layer(x, y, "Text", obj_textBox);
-		textBoxCreated.text = "Well I work don't I?";
+		textBoxCreated.text = "If I don't see you again. Good morning, Good afternoon & Good night";
 	}
 }
 
