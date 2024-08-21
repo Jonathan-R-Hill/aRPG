@@ -21,7 +21,10 @@ currentStam = 200;
 stamRegen = 0.25;
 sprintDrain = 2;
 
-
+// Player animations
 idleSprite = sPlayer;
 walkingSprite = sPlayerWalking;
 idleImageNum = 0;
+
+// Player-NPC Dialogue
+dialogueTriggered = false;

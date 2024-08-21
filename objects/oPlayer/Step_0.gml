@@ -123,8 +123,9 @@ if (oldSprite != sprite_index) {
 
 
 // ---------- Player Actions ---------- //
-if (interact) {
-	// Speak with NPC	
+if (interact) 
+{
+	
 }
 if (spaceBar) {
     // Perform action on space bar press
