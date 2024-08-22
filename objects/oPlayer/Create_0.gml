@@ -1,15 +1,15 @@
 /// @description Char Vals
 
-// ---------- Movement Speed ---------- //
-movementSpeed = 4;
+// Movement Vars
+movementSpeed = 2;
 sprintMovementSpeed = movementSpeed * 2;
 sprintCooldown = 0;
 
-// ---------- Menu ---------- //
+// Menu
 menuOpen = false;
 menuCooldown = 0;
 
-// ---------- Health & Stamina ---------- //
+
 // Health
 maxHealth = 100;
 currentHealth = 100;
@@ -28,3 +28,7 @@ idleImageNum = 0;
 
 // Player-NPC Dialogue
 dialogueTriggered = false;
+
+// Walking sounds
+walking_sound = noone;
+walkingSoundFile = footsteps_slow;

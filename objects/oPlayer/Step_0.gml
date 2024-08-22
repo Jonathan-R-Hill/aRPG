@@ -63,6 +63,10 @@ if (inputMagnitude != 0)
     direction = inputDir; // Update the direction based on movement
     sprite_index = walkingSprite;
     image_speed = 1;
+	
+	if (!audio_is_playing(walking_sound)) {
+        walking_sound = audio_play_sound(walkingSoundFile, 1, true); 
+    }
     
     if (right && down) {
         idleImageNum = 1;
@@ -114,6 +118,10 @@ else
     sprite_index = idleSprite;
     image_index = idleImageNum;
     image_speed = 0;
+	if (audio_is_playing(walking_sound)) {
+		audio_stop_sound(walking_sound);
+		walking_sound = noone;
+	}
 }
 
 if (oldSprite != sprite_index) {

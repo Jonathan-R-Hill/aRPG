@@ -34,7 +34,7 @@
           25,-3,65,-3,22,-4,65,-18,0,-2,25,2,45,46,-6,65,2,45,46,-18,0,-2,25,2,55,56,-6,65,2,55,56,-18,0,-2,25,
           -2,65,8,45,46,45,46,45,46,65,65,-18,0,-2,25,-2,65,8,55,56,55,56,55,56,65,65,-18,0,-2,25,-10,65,-18,0,
           -2,25,-10,65,-248,0,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"PlaceHolders","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"PlaceHolders","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":267,"SerialiseWidth":200,"TileCompressedData":[
           -50250,0,-80,-2147483648,-120,0,-80,-2147483648,-120,0,-80,-2147483648,-120,0,-80,-2147483648,-120,0,
           -80,-2147483648,-120,0,-80,-2147483648,-120,0,-80,-2147483648,-120,0,-80,-2147483648,-120,0,-80,-2147483648,
