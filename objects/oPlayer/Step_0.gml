@@ -29,21 +29,43 @@ var inputMagnitude = ((right - left) != 0) || ((down - up) != 0);
 if (currentStam < sprintDrain) { sprintCooldown =  room_speed * 2; }
 if (sprintCooldown > 0) { sprintCooldown -= 1; }
 
-if (sprint && (currentStam > sprintDrain) && inputMagnitude != 0 && sprintCooldown <= 0) {
+
+if (sprint && (currentStam > sprintDrain) && inputMagnitude != 0 && sprintCooldown <= 0) 
+{
 	var hSpeed = lengthdir_x(inputMagnitude * sprintMovementSpeed, inputDir);
 	var vSpeed = lengthdir_y(inputMagnitude * sprintMovementSpeed, inputDir);
 	currentStam -= sprintDrain;
 	sprite_index = runningSprite;
-	image_speed = 0.70;
+	image_speed = 0.40;
+	
+	if (audio_is_playing(walking_sound)) {
+		audio_stop_sound(walking_sound);
+		walking_sound = noone;
+	}
+	
+	if (!audio_is_playing(running_sound)) {
+        running_sound = audio_play_sound(runningSoundFile, 1, true); 
+    }
 }
-else { // ----- Walk
+else 
+{ // ----- Walk
 	var hSpeed = lengthdir_x(inputMagnitude * movementSpeed, inputDir);
 	var vSpeed = lengthdir_y(inputMagnitude * movementSpeed, inputDir);
 	sprite_index = walkingSprite;
 	image_speed = 1;
+	
 	if (currentStam < maxStam) {
 		currentStam += stamRegen;	
 	}
+	
+	if (audio_is_playing(running_sound)) {
+		audio_stop_sound(running_sound);
+		running_sound = noone;
+	}
+	
+	if (!audio_is_playing(walking_sound)) {
+        walking_sound = audio_play_sound(walkingSoundFile, 1, true); 
+    }
 }
 
 // ----- Collision
@@ -64,10 +86,6 @@ if (inputMagnitude != 0)
 {
     direction = inputDir;
 	
-	if (!audio_is_playing(walking_sound)) {
-        walking_sound = audio_play_sound(walkingSoundFile, 1, true); 
-    }
-    
     if (right && down) {
         idleImageNum = 1;
         frameStart = 6;
@@ -121,6 +139,11 @@ else
 	if (audio_is_playing(walking_sound)) {
 		audio_stop_sound(walking_sound);
 		walking_sound = noone;
+	}
+	
+	if (audio_is_playing(running_sound)) {
+		audio_stop_sound(running_sound);
+		running_sound = noone;
 	}
 }
 

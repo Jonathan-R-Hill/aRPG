@@ -30,6 +30,8 @@ idleImageNum = 0;
 // Player-NPC Dialogue
 dialogueTriggered = false;
 
-// Walking sounds
+// Movement sounds
 walking_sound = noone;
 walkingSoundFile = footsteps_slow;
+running_sound = noone;
+runningSoundFile = footseps_running;

@@ -1,0 +1,1 @@
+audio_stop_sound(celebration_of_the_battle_of_nein);
