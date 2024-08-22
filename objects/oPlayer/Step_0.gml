@@ -32,13 +32,15 @@ if (sprintCooldown > 0) { sprintCooldown -= 1; }
 if (sprint && (currentStam > sprintDrain) && inputMagnitude != 0 && sprintCooldown <= 0) {
 	var hSpeed = lengthdir_x(inputMagnitude * sprintMovementSpeed, inputDir);
 	var vSpeed = lengthdir_y(inputMagnitude * sprintMovementSpeed, inputDir);
-	image_speed = 0.4;
 	currentStam -= sprintDrain;
+	sprite_index = runningSprite;
+	image_speed = 0.70;
 }
-else {
+else { // ----- Walk
 	var hSpeed = lengthdir_x(inputMagnitude * movementSpeed, inputDir);
 	var vSpeed = lengthdir_y(inputMagnitude * movementSpeed, inputDir);
-	image_speed = 0.2;
+	sprite_index = walkingSprite;
+	image_speed = 1;
 	if (currentStam < maxStam) {
 		currentStam += stamRegen;	
 	}
@@ -60,9 +62,7 @@ if (!place_meeting(x, y + vSpeed, all)) {
 
 if (inputMagnitude != 0) 
 {
-    direction = inputDir; // Update the direction based on movement
-    sprite_index = walkingSprite;
-    image_speed = 1;
+    direction = inputDir;
 	
 	if (!audio_is_playing(walking_sound)) {
         walking_sound = audio_play_sound(walkingSoundFile, 1, true); 
@@ -124,7 +124,7 @@ else
 	}
 }
 
-if (oldSprite != sprite_index) {
+if (oldSprite != sprite_index && inputMagnitude == 0) {
     image_speed = 0;
     image_index = idleImageNum;
 }

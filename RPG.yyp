@@ -72,6 +72,7 @@
     {"id":{"name":"sCollisionMarker","path":"sprites/sCollisionMarker/sCollisionMarker.yy",},},
     {"id":{"name":"sMapTransition","path":"sprites/sMapTransition/sMapTransition.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},},
     {"id":{"name":"sPlayerWalking","path":"sprites/sPlayerWalking/sPlayerWalking.yy",},},
     {"id":{"name":"sShopkeeper","path":"sprites/sShopkeeper/sShopkeeper.yy",},},
     {"id":{"name":"sTxtBox","path":"sprites/sTxtBox/sTxtBox.yy",},},

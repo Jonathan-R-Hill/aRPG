@@ -2,7 +2,7 @@
 
 // Movement Vars
 movementSpeed = 2;
-sprintMovementSpeed = movementSpeed * 2;
+sprintMovementSpeed = movementSpeed * 3;
 sprintCooldown = 0;
 
 // Menu
@@ -16,14 +16,15 @@ currentHealth = 100;
 healthRegen = 0.1;
 
 // Stamina
-maxStam = 200;
-currentStam = 200;
-stamRegen = 0.25;
-sprintDrain = 2;
+maxStam = 250;
+currentStam = 250;
+stamRegen = 0.5;
+sprintDrain = 1.25;
 
 // Player animations
 idleSprite = sPlayer;
 walkingSprite = sPlayerWalking;
+runningSprite = sPlayerRun;
 idleImageNum = 0;
 
 // Player-NPC Dialogue

@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Cobble_Tileset",
   "bboxMode":0,
-  "bbox_bottom":878,
+  "bbox_bottom":1530,
   "bbox_left":0,
-  "bbox_right":979,
+  "bbox_right":1199,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0be22ef4-9a8b-47cf-84eb-7957d19d5c71","name":"0be22ef4-9a8b-47cf-84eb-7957d19d5c71","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c0c8ee9f-03a0-4451-99f3-98ec9c58d48f","name":"c0c8ee9f-03a0-4451-99f3-98ec9c58d48f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1600,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"502dcad1-b80b-499f-84d3-3a368b5b76b1","blendMode":0,"displayName":"default","isLocked":false,"name":"502dcad1-b80b-499f-84d3-3a368b5b76b1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"04465aad-a782-435a-93a6-4a9c7e5ee36d","blendMode":0,"displayName":"default","isLocked":false,"name":"04465aad-a782-435a-93a6-4a9c7e5ee36d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Cobble_Tileset",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0be22ef4-9a8b-47cf-84eb-7957d19d5c71","path":"sprites/Cobble_Tileset/Cobble_Tileset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"301e5fd5-030c-4ae4-b42e-1c2687151204","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0c8ee9f-03a0-4451-99f3-98ec9c58d48f","path":"sprites/Cobble_Tileset/Cobble_Tileset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"daefd28f-8f39-41c5-9250-d22eb4c3a3b2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
