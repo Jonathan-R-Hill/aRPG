@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"addToDepthGrid",
+  "%Name":"TypingFunctions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"addToDepthGrid",
+  "name":"TypingFunctions",
   "parent":{
-    "name":"UI",
-    "path":"folders/Scripts/UI.yy",
+    "name":"Text Related",
+    "path":"folders/Scripts/Text Related.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

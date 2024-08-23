@@ -30,6 +30,7 @@
     {"name":"inst_1F20F8DE","path":"rooms/PrologueStart/PrologueStart.yy",},
     {"name":"inst_46A9560B","path":"rooms/PrologueStart/PrologueStart.yy",},
     {"name":"inst_81027ED","path":"rooms/PrologueStart/PrologueStart.yy",},
+    {"name":"inst_29CA5679","path":"rooms/PrologueStart/PrologueStart.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -43,6 +44,7 @@
         {"$GMRInstance":"v1","%Name":"inst_6122E8A7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6122E8A7","objectId":{"name":"Health_Stam","path":"objects/Health_Stam/Health_Stam.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.875,"scaleY":1.8125,"x":-46.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_3EB2FE3D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3EB2FE3D","objectId":{"name":"oShopKeeper","path":"objects/oShopKeeper/oShopKeeper.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":864.0,},
         {"$GMRInstance":"v1","%Name":"inst_7120B2A7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7120B2A7","objectId":{"name":"oTestBoxs","path":"objects/oTestBoxs/oTestBoxs.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":864.0,},
+        {"$GMRInstance":"v1","%Name":"inst_29CA5679","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_29CA5679","objectId":{"name":"obj_demo","path":"objects/obj_demo/obj_demo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":813.0,"y":1179.0,},
       ],"layers":[
         {"$GMRInstanceLayer":"","%Name":"Map_Transport","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
             {"$GMRInstance":"v1","%Name":"inst_2FED98AC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2FED98AC","objectId":{"name":"o_Start_to_NorthZone","path":"objects/o_Start_to_NorthZone/o_Start_to_NorthZone.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":96.0,},

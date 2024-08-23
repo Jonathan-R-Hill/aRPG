@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"NpcTextShowFunctions",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Text Related",
+    "path":"folders/Scripts/Text Related.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
