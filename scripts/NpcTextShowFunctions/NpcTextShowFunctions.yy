@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Dialogue",
+  "%Name":"NpcTextShowFunctions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Dialogue",
+  "name":"NpcTextShowFunctions",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
