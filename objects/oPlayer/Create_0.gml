@@ -11,9 +11,10 @@ menuCooldown = 0;
 
 
 // Health
+healthSprite = sPlayerHealth;
 maxHealth = 100;
 currentHealth = 100;
-healthRegen = 0.1;
+healthRegen = 0.05;
 
 // Stamina
 maxStam = 250;

@@ -33,7 +33,7 @@
   "origin":9,
   "parent":{
     "name":"Trees",
-    "path":"folders/Sprites/Trees.yy",
+    "path":"folders/Sprites/Map Objects/Trees.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

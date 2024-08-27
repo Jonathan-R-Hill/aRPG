@@ -71,12 +71,21 @@ else
 // ----- Collision
 // Horizontal collision detection
 if (!place_meeting(x + hSpeed, y, all)) {
+	var collisonObj = instance_place(x + hSpeed, y, all)
     x += hSpeed;
+}
+else if (place_meeting(x + hSpeed, y, oDmgTile)) {
+	x += hSpeed;
+	currentHealth -= 0.2;
 }
 
 // Vertical collision detection
 if (!place_meeting(x, y + vSpeed, all)) {
     y += vSpeed;
+}
+else if (place_meeting(x, y + vSpeed, oDmgTile)) {
+	y += vSpeed;
+	currentHealth -= 0.2;
 }
 
 
@@ -136,6 +145,7 @@ else
     sprite_index = idleSprite;
     image_index = idleImageNum;
     image_speed = 0;
+	currentHealth += healthRegen;
 	if (audio_is_playing(walking_sound)) {
 		audio_stop_sound(walking_sound);
 		walking_sound = noone;
@@ -158,6 +168,7 @@ if (interact)
 {
 	
 }
+
 if (spaceBar) {
     // Perform action on space bar press
 }
