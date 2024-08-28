@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Buildings",
-    "path":"folders/Objects/Buildings.yy",
+    "path":"folders/Objects/Map Objects/Buildings.yy",
   },
   "parentObjectId":{
     "name":"DrawParent",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Building1",
-    "path":"sprites/Building1/Building1.yy",
+    "name":"sBuilding_1",
+    "path":"sprites/sBuilding_1/sBuilding_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

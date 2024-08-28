@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Tree",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oBarrel_Side_3",
+  "eventList":[],
   "managed":true,
-  "name":"Tree",
+  "name":"oBarrel_Side_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Trees",
-    "path":"folders/Objects/Map Objects/Trees.yy",
+    "name":"Barrels",
+    "path":"folders/Objects/Map Objects/Barrels.yy",
   },
   "parentObjectId":{
     "name":"DrawParent",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sTrees_all",
-    "path":"sprites/sTrees_all/sTrees_all.yy",
+    "name":"sBarrel_side_3",
+    "path":"sprites/sBarrel_side_3/sBarrel_side_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
